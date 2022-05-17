@@ -91,27 +91,27 @@ render() {
                 <div>
                   <div className="money">
                     <img src="$100.jpg" />
-                    <p id="hundred"></p>
+                    <p id="hundred">{this.state.currency[0]["count"]}</p>
                   </div>
                   <div className="money">
                     <img src="$50.jpg" />
-                    <p id="fifty" type="text"></p>
+                    <p id="fifty" type="text">{this.state.currency[1]["count"]}</p>
                   </div>
                   <div className="money">
                     <img src="$20.jpg" />
-                    <p id="twenty" type="text"></p>
+                    <p id="twenty" type="text">{this.state.currency[2]["count"]}</p>
                   </div>
                   <div className="money">
                     <img src="$10.jpg" />
-                    <p id="ten" type="text"></p>
+                    <p id="ten" type="text">{this.state.currency[3]["count"]}</p>
                   </div>
                   <div className="money">
                     <img src="$5.jpg" />
-                    <p id="five" type="text"></p>
+                    <p id="five" type="text">{this.state.currency[4]["count"]}</p>
                   </div>
                   <div className="money">
                     <img src="$1.jpg" />
-                    <p id="dollar" type="text"></p>
+                    <p id="dollar" type="text">{this.state.currency[5]["count"]}</p>
                   </div>
                 </div>
               </div>
@@ -120,19 +120,19 @@ render() {
                 <div>
                   <div className="money-cents">
                     <img src="quarter.png" />
-                    <p id="quarter"></p>
+                    <p id="quarter">{this.state.currency[6]["count"]}</p>
                   </div>
                   <div className="money-cents">
                     <img src="dime.png" />
-                    <p id="dime" type="text"></p>
+                    <p id="dime" type="text">{this.state.currency[7]["count"]}</p>
                   </div>
                   <div className="money-cents">
                     <img src="nickel.png" />
-                    <p id="nickel" type="text"></p>
+                    <p id="nickel" type="text">{this.state.currency[8]["count"]}</p>
                   </div>
                   <div className="money-cents">
                     <img src="penny.png" />
-                    <p id="penny" type="text"></p>
+                    <p id="penny" type="text">{this.state.currency[9]["count"]}</p>
                   </div>
                 </div>
               </div>
