@@ -77,6 +77,8 @@ describe('express', function() {
     .evaluate(() => Array.from(document.querySelectorAll('.change')).map(e => e.innerText))
     .then((results) => {
       const expected = {
+        hundreds: '0',
+        fifties: '0',
         twenties: '0',
         tens: '0',
         fives: '1',
